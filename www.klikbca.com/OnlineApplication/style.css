@@ -1,0 +1,153 @@
+/* CSS Document 
+@font-face {
+    font-family: "regulerfont";
+    src: url(../fonts/FrutigerLTStd-Roman.otf);
+}
+
+body , input{font-family:regulerfont;font-size:12px;margin:0;padding:0;color:#7d7d7d;}*/
+
+/** START **/
+
+@charset "utf-8";
+* {
+    padding: 0;
+    margin: 0;
+	font-family:verdana;
+}
+
+h1, h2, h4, h5, h6, p, blockquote, form, label, ul, ol, dl, fieldset, address {
+    margin-bottom: 1em;
+}
+body, input {
+    color: #636363;
+    font-family: verdana;
+    font-size: 12px;
+}
+
+h3 {
+    color: #1456AC;
+    font-family: Verdana;
+    font-size: 12px;
+    
+}
+.menu{
+	height:20px;
+	padding-top:27px;
+	text-align:right;
+	color:#01539c;
+	font-family:verdana;
+	background:url('../images/banner.html') 5px 0 no-repeat;height:158px; float:center
+}
+
+.menu-clean{
+	height:15px;
+	padding-top:5px;
+	text-align:right;
+	color:#01539c;
+	font-family:verdana;
+}
+
+.menu a{
+	text-decoration:none;
+	padding:5px;
+}
+
+.menu-clean a{
+	text-decoration:none;
+	padding:5px;
+}
+
+
+.menu a.visited{
+	color:green;
+}
+.testL
+{
+    font-size: 10px;
+	COLOR: #636363;
+    line-height: 1.5;
+    text-align: left;
+	TEXT-DECORATION: none;
+}
+.test
+{
+    FONT-SIZE: 12px;
+    COLOR: #636363;
+    FONT-FAMILY: verdana;
+    TEXT-DECORATION: none;
+	line-height: 1.5
+}
+.nav2 {
+    background: url("../images/nav2.gif") no-repeat scroll 10px 10px #F0F6F8;
+    border-bottom: 1px solid #E7EFF1;
+    cursor: pointer;
+    width: 100%;
+}
+a {
+    color: #07629E;
+    text-decoration: none;
+}
+#breadcrumb {
+	font-size:12px;
+	height:30px;
+	padding:0 10px 0 10px;
+}
+
+#breadcrumb a{
+	cursor:hand;
+}
+
+.breadcrumb_prev {
+	color:#07629e;
+	float:left;
+	font-weight:normal;
+}
+.breadcrumb_next {
+	color:#b7b7b7;
+	float:left;
+	font-weight:normal;
+}
+.breadcrumb_arrow {
+	float:left;
+	margin:0px 5px;
+	padding-top:2px;
+}
+.breadcrumb_prev a {
+	color:#07629e;
+	font-weight:normal;
+}
+.breadcrumb_next a {
+	color:#b7b7b7;
+	font-weight:normal;
+}
+.breadcrumb_arrow a {
+	margin:0px 10px;
+	padding-top:2px;
+}
+element.style {
+    margin-top: 10px;
+    width: 729px;
+}
+#ie-test {
+    float: left;
+    margin-left: 6px;
+    width: 530px;
+}
+.tulisan11 {
+    font-size: 12px;
+	COLOR: #636363;
+    line-height: 1.5;
+    text-align: left;
+}
+.img {
+    border: medium none;
+}
+/* Holly Hack. IE Requirement \*/
+* html .submainmenu ul li {
+	float: left;
+	height: 1%;
+}
+* html .submainmenu ul li a {
+	height: 1%;
+}
+/* End */

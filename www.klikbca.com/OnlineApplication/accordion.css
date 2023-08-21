@@ -1,0 +1,318 @@
+@charset "utf-8";
+/* CSS Document */
+	/* First Level UL List */
+ul.accordion_content_wrapper2 ul li a.link, ul.accordion_content_wrapper2 ul li a.link:hover, ul.accordion_content_wrapper2 ul li a.link:visited {
+    	width: auto;
+    	text-decoration: none;
+	padding:0;
+	border:none;
+	display:inline !important;
+}
+	#accordion {
+		margin:0;
+		padding:0;	
+		list-style:none;
+		width:200px;
+		float:left;
+		width:200px;
+		-webkit-border-radius:5px;
+		-moz-border-radius:5px;
+		border-radius:5px;
+		margin:5px 5px 10px 5px;
+		background:#005cab;
+	}
+	
+		#accordion li {
+			width:200px;
+			list-style: none;
+		}
+	
+		#accordion li a {
+			display: block;
+			/*width: 200px;*/
+			/*height: 43px;*/	
+			/*text-indent:-999em;*/
+			outline:none;
+		}
+		
+		/* Using CSS Sprite for menu item */
+		#accordion li a.vaccordionmenu {
+			/*background:url(menu.jpg) no-repeat 0 0;*/	
+			background:#005cab;color:white;background:url(../images/nav1-active.gif) no-repeat 180px 10px;padding:10px;cursor:pointer;font-weight:bold;
+		}
+
+		#accordion li a.vaccordionmenu:hover, .vaccordionmenuOver {
+			/*background:url(menu.jpg) no-repeat -268px 0 !important;*/
+			background:url(../images/nav1-active.gif) no-repeat 180px 10px #0179c6 !important;font-weight:bold;
+		}
+
+		#accordion li a.topaccordionmenu {
+			/*background:url(menu.jpg) no-repeat 0 0;*/	
+			background:#005cab;color:white;background:url(../images/nav1-active.gif) no-repeat 180px 10px;padding:10px;cursor:pointer;font-weight:bold;
+			-webkit-border-radius:5px 5px 0px 0px;
+			-moz-border-radius:5px 5px 0px 0px;
+		}
+		
+		#accordion li.mainmenu {
+			/*background:url(menu.jpg) no-repeat 0 0;*/	
+			background:#005cab;color:white;background:url(../images/nav1.png) no-repeat 180px 10px;padding:10px;font-weight:bold;
+			-webkit-border-radius:5px 5px 0px 0px;
+			-moz-border-radius:5px 5px 0px 0px;
+		}
+		
+		/* start edit */
+		/*#accordion li a.topaccordionmenu:hover, .topaccordionmenuOver{
+			/*background:url(menu.jpg) no-repeat -268px 0 !important;*/
+			/*background:url(/images/nav1-active.gif) no-repeat 180px 10px #065d96 !important;font-weight:bold;
+			-webkit-border-radius:5px 5px 0px 0px;
+			-moz-border-radius:5px 5px 0px 0px;
+		}
+		/* end edit */
+
+		#accordion li a.bottomaccordionmenu {
+			/*background:url(menu.jpg) no-repeat 0 0;*/	
+			background:#005cab;color:white;background:url(../images/nav1.png) no-repeat 180px 10px;padding:10px;cursor:pointer;font-weight:bold;
+			-webkit-border-radius:5px 5px 0px 0px;
+			-moz-border-radius:5px 5px 0px 0px;
+		}
+		
+
+		/*#accordion li a.bottomaccordionmenu:hover, .bottomaccordionmenuOver{
+			/*background:url(menu.jpg) no-repeat -268px 0 !important;*/
+			/*background:url(/images/nav1-active.gif) no-repeat 180px 10px #0179c6 !important;font-weight:bold;
+			-webkit-border-radius:0px 0px 5px 5px;
+			-moz-border-radius:0px 0px 5px 5px;
+		}
+		
+		/* Second Level UL List*/
+		#accordion ul.submainmenu {
+			/*background:url(bg.gif) repeat-y 0 0;*/
+			background:#F0F6F8;
+			width:200px;
+			margin:0;
+			padding:0;
+			display:none;	
+		}
+		
+			#accordion ul li {
+				min-height:30px;
+				position: relative;
+				z-index:99999!important;
+			}
+			#accordion ul li:hover {
+				background:#d1e6f0;
+			}
+			
+			/* styling of submenu item */
+			#accordion ul li a,#accordion ul li a:hover,#accordion ul li a:visited {
+				width:170px;
+				height:auto;
+				padding-top:10px;
+				padding-bottom:10px;
+				padding-left:30px;
+				border-bottom: 1px solid #e7eff1;
+				text-indent:0;
+				text-decoration:none;
+			}
+
+			/* remove border bottom of the last item */
+			#accordion ul li a.last {
+				border-bottom: none;
+			}	
+
+
+/*accordion content*/
+	ul.accordion_content_wrapper {
+		margin:0;
+		padding:0;	
+		list-style:none;
+		/*width:200px;*/
+		-webkit-border-radius:5px;
+		-moz-border-radius:5px;
+		border-radius:5px;
+		margin:5px;
+	}
+	
+		ul.accordion_content_wrapper li {
+			/*width:199px;*/
+			list-style: none;
+			margin-bottom:5px;
+		}
+		ul.accordion_content_wrapper li ul li ul li{list-style: circle;}
+		ul.accordion_content_wrapper li ul li ol li{list-style: inherit;}
+	
+		ul.accordion_content_wrapper li a {
+			display: block;
+			/*width: 200px;*/
+			/*height: 43px;*/	
+			/*text-indent:-999em;*/
+			outline:none;
+		}
+		
+		/* Using CSS Sprite for menu item */
+
+
+		ul.accordion_content_wrapper li a.accordioncontent,ul.accordion_content_wrapper li a.accordioncontent:hover {
+			/*background:url(menu.jpg) no-repeat 0 0;*/	
+			color:#636363;background:url(../images/Plus_Icon.html) no-repeat 10px 12px #E9E9E9;padding:10px;cursor:pointer;font-weight:bold;padding-left:25px;
+			-webkit-border-radius:5px 5px 0px 0px;
+			-moz-border-radius:5px 5px 0px 0px;
+		}
+		.accordioncontentOver{
+			/*background:url(menu.jpg) no-repeat -268px 0 !important;*/
+			color:#636363;background:url(../images/minus_icon.html) no-repeat 10px 12px #E9E9E9;padding:10px;cursor:pointer;font-weight:bold;padding-left:25px;
+			-webkit-border-radius:5px 5px 0px 0px;
+			-moz-border-radius:5px 5px 0px 0px;
+		}
+
+		
+		/* Second Level UL List*/
+		ul.accordion_content_wrapper ul.accordion_content_desc {
+			/*background:url(bg.gif) repeat-y 0 0;*/
+			background:#fff;
+			/*width:200px;*/
+			margin:0;
+			padding:0;
+			display:none;	
+		}
+		
+			ul.accordion_content_wrapper ul li {
+				min-height:30px;
+				position: relative;
+			}
+			
+			/* styling of submenu item */
+			ul.accordion_content_wrapper ul li a,ul.accordion_content_wrapper ul li a:hover,ul.accordion_content_wrapper ul li a:visited {
+				width:170px;
+				height:25px;
+				padding-top:10px;
+				padding-left:30px;
+				border-bottom: 1px solid #e7eff1;
+				text-indent:0;
+				text-decoration:none;
+			}
+
+			/* remove border bottom of the last item */
+			ul.accordion_content_wrapper ul li a.last {
+				border-bottom: none;
+			}		
+		/*ul.accordion_content_desc li{padding-left:10px;}		
+		ul.accordion_content_desc li ul{padding:10px;}*/
+		ul.accordion_content_desc li{padding-left:10px;}		
+		ul.accordion_content_desc li ul{padding:10px;padding-left:15px; min-height:1%;*top: -.5em; /* IE7 */ }	
+		/** START **/
+		ul.accordion_content_wrapper ul li ul li{
+				min-height:inherit;
+				line-height:1.5;
+				
+			}
+		ul.accordion_content_wrapper li ul ul li{list-style-type:disc !important; vertical-align:top !important;padding-top:5px !important; *top: -.5em; /* IE7 */}
+		/** END **/
+
+		
+		
+		
+		
+		
+		
+/*accordion content*/
+	ul.accordion_content_wrapper2 {
+		margin:0;
+		padding:0;	
+		list-style:none;
+		/*width:200px;*/
+		-webkit-border-radius:5px;
+		-moz-border-radius:5px;
+		border-radius:5px;
+		margin:5px;
+	}
+	
+		ul.accordion_content_wrapper2 li {
+			/*width:199px;*/
+			list-style: none;
+			margin-bottom:5px;
+		}
+		ul.accordion_content_wrapper2 li ul li ul li{list-style: circle;}
+		ul.accordion_content_wrapper2 li ul li ol li{list-style: inherit;}
+	
+		ul.accordion_content_wrapper2 li a {
+			display: block;
+			/*width: 200px;*/
+			/*height: 43px;*/	
+			/*text-indent:-999em;*/
+			outline:none;
+		}
+		
+		/* Using CSS Sprite for menu item */
+
+
+		ul.accordion_content_wrapper2 li a.accordioncontent2,ul.accordion_content_wrapper2 li a.accordioncontent2:hover {
+			/*background:url(menu.jpg) no-repeat 0 0;*/	
+			color:#636363;background:url(../images/icon_arrow_transparent.html) no-repeat 97% center;padding:10px;cursor:pointer;font-weight:bold;
+			-webkit-border-radius:5px 5px 0px 0px;
+			-moz-border-radius:5px 5px 0px 0px;
+		}
+		.accordioncontentOver2{
+			/*background:url(menu.jpg) no-repeat -268px 0 !important;*/
+			color:#555555;background:url(../images/icon_arrow_transparent_bottom.html) no-repeat 97% center ;padding:10px;cursor:pointer;font-weight:bold;
+			-webkit-border-radius:5px 5px 0px 0px;
+			-moz-border-radius:5px 5px 0px 0px;
+		}
+
+		
+		/* Second Level UL List*/
+		ul.accordion_content_wrapper2 ul.accordion_content_desc2 {
+			line-height:2 !important;
+			/*background:url(bg.gif) repeat-y 0 0;*/
+			background:#f8f8f8;
+			/*width:200px;*/
+			margin:0;
+			padding:0;
+			display:none;	
+		}
+		
+			ul.accordion_content_wrapper2 ul li {
+				min-height:30px;
+				position: relative;
+			}
+			
+			/* styling of submenu item */
+			ul.accordion_content_wrapper2 ul li a,ul.accordion_content_wrapper2 ul li a:hover,ul.accordion_content_wrapper2 ul li a:visited {
+				width:170px;
+				height:25px;
+				padding-top:10px;
+				padding-left:30px;
+				border-bottom: 1px solid #e7eff1;
+				text-indent:0;
+				text-decoration:none;
+			}
+
+			/* remove border bottom of the last item */
+			ul.accordion_content_wrapper2 ul li a.last {
+				border-bottom: none;
+			}		
+		/*ul.accordion_content_desc2 li{padding-left:10px;}		
+		ul.accordion_content_desc2 li ul{padding:10px;}*/
+		ul.accordion_content_desc2 li{padding:20px;}		
+		ul.accordion_content_desc2 li ul{padding:10px;padding-left:15px; min-height:1%;*top: -.5em; /* IE7 */ }	
+		/** START **/
+		ul.accordion_content_wrapper2 ul li ul li{
+				min-height:inherit;
+				line-height:1.5;
+				
+			}
+		ul.accordion_content_wrapper2 li ul ul li{list-style-type:disc !important; vertical-align:top !important;padding-top:5px !important; *top: -.5em; /* IE7 */}
+		.bg_transparent{
+			background:url(../images/bg_gradient_accordion.html) repeat-x center;
+			-moz-border-radius: 10px ;
+			border-radius: 10px;
+			border:thin #bfbfbf solid;
+			height:52px !important;
+		}
+		.top_rounded_grey{
+			-webkit-border-radius:5px 5px 0px 0px;
+			-moz-border-radius:5px 5px 0px 0px;
+			background:#f8f8f8 !important;
+		}
+		a.link_in_accordion{display:inherit !important;text-decoration:none !important;padding:0px !important;border:none !important;}
+		/** END **/
